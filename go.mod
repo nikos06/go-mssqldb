@@ -1,4 +1,4 @@
-module github.com/denisenkom/go-mssqldb
+module github.com/nikos06/go-mssqldb
 
 go 1.11
 

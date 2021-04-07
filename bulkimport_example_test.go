@@ -10,7 +10,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/denisenkom/go-mssqldb"
+	"github.com/nikos06/go-mssqldb"
 )
 
 const (
