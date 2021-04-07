@@ -29,8 +29,8 @@ var driverInstance = &Driver{processQueryText: true}
 var driverInstanceNoProcess = &Driver{processQueryText: false}
 
 func init() {
-	sql.Register("mssql", driverInstance)
-	sql.Register("sqlserver", driverInstanceNoProcess)
+	sql.Register("mssql2", driverInstance)
+	sql.Register("sqlserver2", driverInstanceNoProcess)
 	createDialer = func(p *connectParams) Dialer {
 		return netDialer{&net.Dialer{KeepAlive: p.keepAlive}}
 	}
